@@ -1,0 +1,1 @@
+var p=angular.module('mine',['ngRoute']);
