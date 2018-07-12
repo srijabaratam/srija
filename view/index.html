@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>armstrong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../script/angular.js"></script>
+    <script src="../script/angular-ui-router.js"></script>
+    <script src="../script/app.js"></script>
+     <script src="../script/amrCtrl.js"></script>
+</head>
+<body ng-app="armstrong" ng-controller="amrCtrl" >
+
+<center>enter a number:<input type="number" ng-model="num"></center><br /><br />
+<center><button ng-click="armstrong()" data-ui-sref="result" >submit</button></center>
+<hr>
+<ui-view></ui-view>
+</body>
+</html>
